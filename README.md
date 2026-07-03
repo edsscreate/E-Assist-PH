@@ -39,3 +39,9 @@ You can upload these files to:
 - Cloudflare Pages
 
 For a simple setup, Netlify lets you drag and drop the whole extracted folder into its deploy page.
+
+
+## Contact details already added
+- Facebook: https://www.facebook.com/profile.php?id=61591255485685
+- Email: Edsscreate@gmail.com
+- Contact number: 0961 301 6594
