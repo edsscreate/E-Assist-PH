@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="E-Assist PH — One-Stop Digital Assistance for travel booking, mobile load, typing, online appointments, and government form guidance." />
+  <title>E-Assist PH | One-Stop Digital Assistance</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="topbar">
+    <p>💙 Fast, friendly, and reliable online assistance</p>
+    <a href="#contact">Send an inquiry →</a>
+  </div>
+
+  <header class="site-header" id="home">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="E-Assist PH home">
+        <span class="brand-mark" aria-hidden="true">e<span>↗</span></span>
+        <span class="brand-text">E-Assist <b>PH</b><small>One-Stop Digital Assistance</small></span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#how">How It Works</a>
+        <a href="#faq">FAQs</a>
+        <a class="nav-cta" href="#contact">Message Us</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="spark">✦</span> YOUR DIGITAL HELPING HAND</p>
+          <h1>Online errands made <span>easy.</span></h1>
+          <p class="hero-text">
+            From travel booking and mobile load to typing, online appointments, and form assistance—
+            <strong>E-Assist PH</strong> helps you get things done with less stress.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Request Assistance <span>→</span></a>
+            <a class="button button-secondary" href="#services">View Services</a>
+          </div>
+          <div class="trust-row">
+            <div><span>✓</span><p>Convenient</p></div>
+            <div><span>✓</span><p>Friendly</p></div>
+            <div><span>✓</span><p>Trusted</p></div>
+          </div>
+        </div>
+
+        <div class="hero-card-wrap">
+          <div class="hero-accent accent-one"></div>
+          <div class="hero-accent accent-two"></div>
+          <div class="hero-card">
+            <div class="card-top">
+              <span class="mini-badge">E-ASSIST PH</span>
+              <span class="online-dot">Online</span>
+            </div>
+            <div class="hero-logo">
+              <div class="big-e">e<span>↗</span></div>
+              <div>
+                <h2>How can we<br />assist you today?</h2>
+                <p>Choose a service and send your inquiry.</p>
+              </div>
+            </div>
+            <div class="quick-grid">
+              <div><span>✈</span><p>Travel<br />Booking</p></div>
+              <div><span>₱</span><p>Mobile<br />Load</p></div>
+              <div><span>⌨</span><p>Typing &<br />Printing</p></div>
+              <div><span>📅</span><p>Online<br />Appointments</p></div>
+            </div>
+            <div class="card-message">💬 Send us your concern. We’re happy to help!</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-wave" aria-hidden="true"></div>
+    </section>
+
+    <section class="service-strip">
+      <div class="container strip-inner">
+        <p><b>One-stop digital support for everyday needs.</b></p>
+        <div class="service-marquee" aria-label="Key services">
+          <span>Travel Booking</span><i>•</i>
+          <span>Mobile Load</span><i>•</i>
+          <span>Typing & Printing</span><i>•</i>
+          <span>Online Appointments</span><i>•</i>
+          <span>Government Form Guidance</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="eyebrow">WHAT WE CAN HELP WITH</p>
+          <h2>Services made simple.</h2>
+          <p>Choose what you need and message us for the complete requirements and service fee.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card featured">
+            <div class="service-icon travel">✈</div>
+            <span class="tag">Popular</span>
+            <h3>Travel Booking</h3>
+            <p>Assistance with flights, buses, ferries, hotels, travel insurance, and basic itineraries.</p>
+            <button class="text-link service-select" data-service="Travel Booking">Ask about travel booking →</button>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon load">₱</div>
+            <h3>Mobile Load & Data</h3>
+            <p>Regular load, promo load, and data packages for supported mobile networks.</p>
+            <button class="text-link service-select" data-service="Mobile Load & Data">Request a load →</button>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon type">⌨</div>
+            <h3>Typing & Printing</h3>
+            <p>Typing, encoding, document cleanup, printing, scanning, and file conversion.</p>
+            <button class="text-link service-select" data-service="Typing & Printing">Send a document →</button>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon appointment">📅</div>
+            <h3>Online Appointments</h3>
+            <p>Guidance for appointments and online forms for selected services and agencies.</p>
+            <button class="text-link service-select" data-service="Online Appointments">Book assistance →</button>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon government">🏛</div>
+            <h3>Government Assistance</h3>
+            <p>Guidance, form preparation, scanning, and online transaction support for selected agencies.</p>
+            <button class="text-link service-select" data-service="Government Assistance">Ask for guidance →</button>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon other">⋯</div>
+            <h3>Other Online Services</h3>
+            <p>Need something not listed? Send us the details and we’ll check how we can assist.</p>
+            <button class="text-link service-select" data-service="Other Online Services">Send an inquiry →</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section how-section" id="how">
+      <div class="container how-grid">
+        <div class="how-copy">
+          <p class="eyebrow">EASY AS 1–2–3</p>
+          <h2>Less hassle.<br /><span>More done.</span></h2>
+          <p>We keep the process clear so you know what to prepare before we begin.</p>
+          <a class="button button-primary" href="#contact">Start your request <span>→</span></a>
+        </div>
+
+        <ol class="steps">
+          <li>
+            <span class="step-number">01</span>
+            <div><h3>Send your request</h3><p>Tell us what service you need and send the details we need to check it.</p></div>
+          </li>
+          <li>
+            <span class="step-number">02</span>
+            <div><h3>Receive your quote</h3><p>We’ll confirm the requirements, available options, service fee, and next steps.</p></div>
+          </li>
+          <li>
+            <span class="step-number">03</span>
+            <div><h3>We assist you</h3><p>Once confirmed, we’ll guide you through the process or prepare your requested service.</p></div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section safety-section">
+      <div class="container safety-box">
+        <div class="safety-icon">🔒</div>
+        <div>
+          <p class="eyebrow">YOUR SECURITY MATTERS</p>
+          <h2>We never ask for your password, OTP, ATM PIN, or bank login.</h2>
+          <p>For account-based government or financial transactions, clients should personally review and submit using their own accounts.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="container faq-grid">
+        <div class="faq-intro">
+          <p class="eyebrow">QUICK ANSWERS</p>
+          <h2>Frequently asked questions.</h2>
+          <p>Can’t find your question? Send us a message and we’ll be glad to help.</p>
+          <a class="text-link" href="#contact">Ask us directly →</a>
+        </div>
+
+        <div class="faq-list">
+          <details open>
+            <summary>What services does E-Assist PH offer?<span>+</span></summary>
+            <p>We assist with travel booking, mobile load, typing and printing, online appointments, selected government form guidance, and other online services.</p>
+          </details>
+          <details>
+            <summary>How much is the service fee?<span>+</span></summary>
+            <p>Fees depend on the type of request, required documents, and complexity. Send us the service you need so we can provide the exact amount before we begin.</p>
+          </details>
+          <details>
+            <summary>Can you guarantee loan, visa, or government approval?<span>+</span></summary>
+            <p>No. E-Assist PH provides independent assistance only. Final approval, assessment, fees, and processing time remain with the official agency or provider.</p>
+          </details>
+          <details>
+            <summary>How do I request travel booking?<span>+</span></summary>
+            <p>Send your destination, travel dates, number of passengers, passenger names and ages, and preferred budget. We’ll check the available options for you.</p>
+          </details>
+          <details>
+            <summary>Can I send a photo for typing or printing?<span>+</span></summary>
+            <p>Yes. Send a clear photo or file, plus your preferred format, number of pages/copies, deadline, and any special instructions.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="eyebrow">LET’S GET STARTED</p>
+          <h2>Tell us how we can help.</h2>
+          <p>Fill out the form and it will create a ready-to-send inquiry message. You can copy it and send it to our Facebook Page or Messenger.</p>
+          <div class="contact-note">
+            <span>💡</span>
+            <p><b>Tip:</b> The more complete your details are, the faster we can check your request.</p>
+          </div>
+
+          <div class="contact-links">
+            <a href="#" data-placeholder-link>💬 Facebook Messenger <span>↗</span></a>
+            <a href="#" data-placeholder-link>📧 Email us <span>↗</span></a>
+            <a href="#" data-placeholder-link>📱 Call / Text us <span>↗</span></a>
+          </div>
+        </div>
+
+        <form class="inquiry-form" id="inquiryForm">
+          <label>
+            Your name
+            <input id="name" name="name" type="text" placeholder="Enter your name" required />
+          </label>
+
+          <label>
+            Service needed
+            <select id="service" name="service" required>
+              <option value="" selected disabled>Select a service</option>
+              <option>Travel Booking</option>
+              <option>Mobile Load & Data</option>
+              <option>Typing & Printing</option>
+              <option>Online Appointments</option>
+              <option>Government Assistance</option>
+              <option>Other Online Services</option>
+            </select>
+          </label>
+
+          <label>
+            Contact number or email
+            <input id="contactInfo" name="contactInfo" type="text" placeholder="How can we contact you?" required />
+          </label>
+
+          <label>
+            Tell us what you need
+            <textarea id="details" name="details" rows="5" placeholder="Example: Manila to Cebu, July 20–23, 2 passengers..." required></textarea>
+          </label>
+
+          <button class="button button-primary form-submit" type="submit">Create inquiry message <span>→</span></button>
+          <p class="form-caption">Your information stays on your device. This form does not submit to a server.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div class="message-modal" id="messageModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button class="modal-close" aria-label="Close message preview">×</button>
+      <p class="eyebrow">READY TO SEND</p>
+      <h2 id="modalTitle">Your inquiry message</h2>
+      <textarea id="generatedMessage" readonly></textarea>
+      <div class="modal-actions">
+        <button class="button button-primary" id="copyMessage">Copy message</button>
+        <a class="button button-secondary" href="#contact" id="closeModalLink">Edit details</a>
+      </div>
+      <p class="copy-status" id="copyStatus" aria-live="polite"></p>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#home">
+        <span class="brand-mark" aria-hidden="true">e<span>↗</span></span>
+        <span class="brand-text">E-Assist <b>PH</b><small>One-Stop Digital Assistance</small></span>
+      </a>
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#faq">FAQs</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p>© <span id="year"></span> E-Assist PH. Assistance service only.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
